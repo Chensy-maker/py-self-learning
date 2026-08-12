@@ -3,3 +3,8 @@
 print("Hello World")
 print("Hello Python")
 print("---------------------")
+
+
+meg = 'hello "world"'
+print(meg)
+
