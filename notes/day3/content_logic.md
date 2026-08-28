@@ -15,7 +15,7 @@
 1. case _匹配其他输入  
 2. pass为空语句，起占位作用，为了维持语法完整使用  
 
-进阶case+if守卫
+进阶case+if
 ```python
 data = ("tom", 22)
 match data:
@@ -36,4 +36,27 @@ while-else结构：
 ![alt text](415ad269df796e1b3f8dc96dbfd529bd.jpg)  
 *else部分可有可无*  
 
+#### for循环  
 
+![alt text](a282ed8e700bb71e6214b86f1649f1ba.jpg)  
+![alt text](a1cde3a906bea1a1465982948851cd00.jpg)  
+*注意：*
+*1.for i in msg:这一条语句就创建出了i这个变量*  
+*2.for循环的遍历顺序由in后面的容器决定*
+
+##### for循环与while循环
+![alt text](c03492e4040478f573435d250ed4ab6a.jpg)  
+
+##### range语句——生成想要的数据集
+![alt text](42ac20e44c0df660c135a3451ccbd057.jpg)  
+
+#### 嵌套循环
+![alt text](0b2e5fbdf871b2da37682b69e0467139.jpg)  
+*tips：无论光标在哪 想要快速换行可以shift+enter*
+注意：print语句自带换行效果，每一次输出占一行，若不想换行使用print("输出内容",end=" ")，其中end表示的是每一次输出以什么结束；若无end默认以\n结束，表示换行。
+
+**注意：空字符串为""里面不能含有空格。**  
+
+##### 循环关键字
+break：只能出现在循环中，表示结束或者跳出循环。  
+continue：跳过本次循环剩下的代码，直接进入下一轮循环  
